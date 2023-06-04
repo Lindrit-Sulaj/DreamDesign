@@ -1,9 +1,11 @@
-import Image from 'next/image'
+import { Navbar } from "@/components"
+import { Hero } from "@/containers"
 
 export default function Home() {
   return (
-    <main className='min-h-screen bg-neutral-900 text-white'>
-      Hello world
+    <main>
+      <Navbar background="transparent" text="white" />
+      <Hero />
     </main>
   )
 }
