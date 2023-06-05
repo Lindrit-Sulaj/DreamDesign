@@ -29,23 +29,24 @@ export default function Navbar({ background, text }: { background: string, text:
       </div>
 
       <AnimatePresence>
-        {opened && (
+        {breakpoint === "sm" && opened && (
           <motion.div
             initial={{ x: '-100vw' }}
             animate={{ x: 0 }}
             exit={{ x: '-100vw' }}
             transition={{ type: 'just', duration: .2 }}
-            className='absolute flex flex-col w-full h-screen bg-neutral-900 top-0 p-6'>
+            className='absolute flex flex-col w-full h-screen bg-neutral-950 top-0 p-6'>
             <div className='flex justify-end'>
               <button onClick={close}>
-                <i className="fa-solid fa-xmark fa-lg"></i>
+                <i className="fa-solid fa-xmark fa-xl"></i>
               </button>
             </div>
-            <ul className='flex flex-col justify-center grow gap-6 text-lg items-center'>
-              <li className='opacity-75 hover:opacity-100'><a href="#">Home</a></li>
-              <li className='opacity-75 hover:opacity-100'><a href="#">About</a></li>
-              <li className='opacity-75 hover:opacity-100'><a href="#">Services</a></li>
-              <li className='opacity-75 hover:opacity-100 border-solid border-[1px] border-neutral-500 px-3 py-[5px] rounded-sm'><a href="#">Contact</a></li>
+            <ul className='flex flex-col justify-center grow gap-6 text-2xl font-medium items-center'>
+              <li className='font-bold text-blue-300 mb-5'>DreamDesign</li>
+              <li className='opacity-[.8] hover:opacity-100'><a href="#">Home</a></li>
+              <li className='opacity-[.8] hover:opacity-100'><a href="#">About</a></li>
+              <li className='opacity-[.8] hover:opacity-100'><a href="#">Services</a></li>
+              <li className='opacity-[.8] hover:opacity-100 border-solid border-[2px] border-neutral-300 px-3 py-[5px] rounded-sm'><a href="#">Contact</a></li>
             </ul>
           </motion.div>
         )}
