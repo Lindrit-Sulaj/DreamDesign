@@ -1,5 +1,5 @@
 import { Navbar } from "@/components"
-import { Hero, Stats } from "@/containers"
+import { Hero, Stats, About } from "@/containers"
 
 export default function Home() {
   return (
@@ -7,6 +7,7 @@ export default function Home() {
       <Navbar background="transparent" text="white" />
       <Hero />
       <Stats />
+      <About />
     </main>
   )
 }
