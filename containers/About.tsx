@@ -3,7 +3,7 @@ import { Heading } from '@/components';
 
 export default function About(): React.JSX.Element {
   return (
-    <section className="about py-14">
+    <section className="about py-14 lg:py-20">
       <div className='max-w-[1300px] px-6 md:px-8 mx-auto flex justify-center gap-y-14 items-center flex-wrap lg:flex-nowrap lg:justify-start'>
         <div className='w-full lg:w-2/3'>
           <Heading title='Who we are' subtitle='About us' />

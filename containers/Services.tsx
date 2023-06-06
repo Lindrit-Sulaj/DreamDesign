@@ -44,7 +44,7 @@ const architectureServices: ServiceBox[] = [
 
 export default function Services(): React.JSX.Element {
   return (
-    <section className="bg-neutral-900 relative py-16 overflow-hidden">
+    <section className="bg-neutral-900 relative py-16 lg:py-20 overflow-hidden">
       <div className='max-w-[1300px] mx-auto px-6 md:px-8'>
         <Heading title='What we do' subtitle='Services' colorTheme='dark' />
 
