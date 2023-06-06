@@ -32,9 +32,8 @@ export default function Navbar({ background, text }: { background: string, text:
         {breakpoint === "sm" && opened && (
           <motion.div
             initial={{ x: '-100vw' }}
-            animate={{ x: 0 }}
+            animate={{ x: 0, transition: { type: 'tween', duration: .2 } }}
             exit={{ x: '-100vw' }}
-            transition={{ type: 'just', duration: .2 }}
             className='absolute flex flex-col w-full h-screen bg-neutral-950 top-0 p-6'>
             <div className='flex justify-end'>
               <button onClick={close}>

@@ -11,7 +11,13 @@ module.exports = {
      
       colors: {
         'custom-blue': '#4361ee',
-        'custom-blue-hover': '#3f37c9'
+        'custom-blue-hover': '#3f37c9',
+        neutral: {
+          textDark: '#9F9F9F'
+        }
+      },
+      screens: {
+        'web': '1300px'
       }
     },
   },
