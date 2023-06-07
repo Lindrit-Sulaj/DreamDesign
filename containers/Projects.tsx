@@ -66,7 +66,7 @@ export default function Projects(): React.JSX.Element {
         </div>
       </div>
       <div style={{ zIndex: -100 }} className='hidden web:block'>
-        <div className="absolute -top-10 grid grid-cols-7 grid-rows-[10] gap-x-5 -left-8 gap-7">
+        <div className="absolute -top-10 grid grid-cols-7 grid-rows-[10] gap-x-5 -left-6 gap-7">
           <div className="w-[6px] h-[6px] rounded-full bg-neutral-800"></div>
           <div className="w-[6px] h-[6px] rounded-full bg-neutral-800"></div>
           <div className="w-[6px] h-[6px] rounded-full bg-neutral-800"></div>

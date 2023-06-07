@@ -4,6 +4,7 @@ import About from "./About";
 import Services from "./Services";
 import Benefits from "./Benefits";
 import Projects from "./Projects";
+import Faq from "./Faq";
 
 export {
   Hero,
@@ -11,5 +12,6 @@ export {
   About,
   Services,
   Benefits,
-  Projects
+  Projects,
+  Faq
 }
