@@ -18,19 +18,19 @@ const projects: ProjectProps[] = [
     category: ''
   },
   {
-    name: 'Project 1',
+    name: 'Project 2',
     link: '/project/1',
     image: 'https://images.unsplash.com/photo-1598818384697-62330d600309?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80',
     category: ''
   },
   {
-    name: 'Project 1',
+    name: 'Project 3',
     link: '/project/1',
     image: 'https://images.unsplash.com/photo-1546349851-64285be8e9fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80',
     category: ''
   },
   {
-    name: 'Project 1',
+    name: 'Project 4',
     link: '/project/1',
     image: 'https://images.unsplash.com/photo-1567943183748-3a7542120c90?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80',
     category: ''

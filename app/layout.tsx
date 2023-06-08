@@ -1,6 +1,7 @@
 import './globals.css'
 import { Manrope } from 'next/font/google'
 import Script from 'next/script'
+import { Footer } from '@/components'
 
 const manrope = Manrope({ subsets: ['latin'] })
 
@@ -18,6 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={manrope.className}>
         {children}
+        <Footer />
         <Script src="https://kit.fontawesome.com/72aeedc907.js" />
       </body>
     </html>
