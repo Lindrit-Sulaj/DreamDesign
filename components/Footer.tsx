@@ -28,6 +28,9 @@ export default function Footer() {
             <li className='text-neutral-600'>
               <Link href="/projects">Projects</Link>
             </li>
+            <li className="text-neutral-600">
+              <Link href="https://lindritsulaj.com">Developer</Link>
+            </li>
           </ul>
         </div>
         <div>
