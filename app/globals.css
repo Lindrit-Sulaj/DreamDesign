@@ -8,3 +8,47 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.mdx h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 26px;
+  margin-bottom: 6px;
+}
+
+.mdx h3 {
+  font-size: 19px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.mdx h4 {
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 12px;
+  margin-bottom: 5px;
+}
+.mdx p {
+  color: rgb(70, 70, 70);
+  font-size: 17px;
+}
+
+.aboutus section.hero {
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6) ), url('https://ik.imagekit.io/0s9lwb2yr/DreamDesign/pexels-pixabay-416405__1__xMbR92A6x.jpg?updatedAt=1686247108777');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 768px) {
+  .mdx h2 {
+    font-size: 24px;
+  }  
+  .mdx h3 {
+    font-size: 18px;
+  }
+  .mdx h4 {
+    font-size: 17px;
+  }
+}
