@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Hero(): React.JSX.Element {
+export default async function Hero(): Promise<React.JSX.Element> {
   return (
     <section className="hero relative text-white">
       <div className="bg absolute flex w-full h-full z-[-100]">
