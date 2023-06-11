@@ -188,7 +188,7 @@ function Service({ icon, title, description, link, className }: ServiceBox): Rea
       <div>
         <h5 className='font-semibold text-lg text-white'>{title}</h5>
         <p className='text-neutral-textDark mt-1 max-w-lg'>{description}</p>
-        <Link className='mt-1 text-blue-400 block' href={link}>Learn more</Link>
+        <Link className='mt-1 text-blue-400 block' href={link} aria-label={title}>Learn more</Link>
       </div>
     </div>
   )

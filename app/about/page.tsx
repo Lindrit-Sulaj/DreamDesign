@@ -13,7 +13,6 @@ export default function AboutPage(): React.JSX.Element {
         <div className="flex gap-3 text-[17px] text-neutral-300">
           <Link href="/">Home</Link>
           <span>/</span>
-          <span>About</span>
         </div>
         <h1 className="font-bold text-3xl md:text-4xl lg:text-6xl text-white">About Us</h1>
       </section>

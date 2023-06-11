@@ -191,7 +191,7 @@ function Project({ name, link, image }: ProjectProps): React.JSX.Element {
     <div style={{ background: `linear-gradient(180deg, rgba(0,0,0,0), rgba(0,0,0,.8) 100%), url(${image})`, backgroundSize: 'cover', backgroundPosition: 'center' }} className='relative rounded-sm flex flex-col h-[200px] lg:h-[350px]'>
       <div className='mt-auto flex justify-between text-white px-6 py-4 items-center'>
         <h5 className='font-semibold text-lg'>{name}</h5>
-        <Link href={link}>
+        <Link href={link} aria-label={name}>
           <i className="fa-solid fa-arrow-right-long fa-lg"></i>
         </Link>
       </div>
