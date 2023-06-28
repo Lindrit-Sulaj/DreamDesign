@@ -30,9 +30,9 @@ const data: Array<{
   },
   {
     image: "https://images.pexels.com/photos/1249611/pexels-photo-1249611.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    title: "Construction Management",
-    description: "Our construction management services ensure seamless coordination and efficient execution of architectural projects, from planning to completion.",
-    link: "/services/construction-management"
+    title: "Construction",
+    description: "Our construction services ensure seamless coordination and efficient execution of architectural projects, from planning to completion.",
+    link: "/services/construction"
   },
   {
     image: "https://images.pexels.com/photos/5768107/pexels-photo-5768107.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -61,7 +61,6 @@ export default function ServicesPage(): React.JSX.Element {
           <Service key={service.title} {...service} />
         ))}
       </section>
-      <Cta />
     </main>
   )
 }

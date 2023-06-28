@@ -3,7 +3,7 @@ import { Heading } from '@/components'
 
 export default function Cta() {
   return (
-    <section className='bg-neutral-900 px-6 md:px-8 py-14 lg:py-20 border-solid border-b-[6px] border-custom-blue'>
+    <section className='bg-neutral-900 px-6 my-8 md:px-8 py-14 lg:py-20 border-solid border-b-[6px] border-custom-blue'>
       <Heading title='Take the next step' position='center' colorTheme='dark' />
       <p className='max-w-lg mx-auto text-center text-neutral-300 text-base md:text-[17px] mt-3'>Contact us today to discuss your architectural project and turn your vision into reality.</p>
       <div className='max-w-lg flex mx-auto mt-4  shadow-md'>
