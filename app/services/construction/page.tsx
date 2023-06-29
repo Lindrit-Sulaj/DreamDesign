@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { Navbar } from '@/components';
+import { Construction } from '@/markdown';
 
 export default function ConstructionPage() {
   return (
@@ -15,6 +16,9 @@ export default function ConstructionPage() {
         </div>
         <h1 className="font-bold text-3xl md:text-4xl lg:text-6xl text-white">Construction</h1>
         <p className="md:text-lg text-neutral-300 mt-2 max-w-lg mx-auto text-center">Ensure seamless coordination and efficient execution of your architectural projects.</p>
+      </section>
+      <section className='mdx max-w-screen-lg mx-auto'>
+        <Construction />
       </section>
     </main>
   )
