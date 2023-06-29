@@ -17,7 +17,7 @@ export default function Navbar({ background, text }: { background: string, text:
       color: text
     }} className='h-[70px] z-[100] absolute text-white top-0 w-full'>
       <div className="max-w-[1300px] mx-auto h-full flex items-center justify-between px-6 md:px-8">
-        <h2 className='font-bold text-xl'>Architecture</h2>
+        <img className='w-20' src="https://ik.imagekit.io/0s9lwb2yr/DreamDesign/IMG-3594-removebg-preview_N9rlpwbil.png?updatedAt=1688076088053" alt="Dream Design logo" />
         <ul className='hidden md:flex gap-6 text-[17px] items-center'>
           <li className='opacity-75 hover:opacity-100'><Link href="/">Home</Link></li>
           <li className='opacity-75 hover:opacity-100'><Link href="/about">About</Link></li>
@@ -33,7 +33,7 @@ export default function Navbar({ background, text }: { background: string, text:
         {breakpoint === "sm" && opened && (
           <motion.div
             initial={{ x: '-100vw' }}
-            animate={{ x: 0, transition: { type: 'tween', duration: .2 } }}
+            animate={{ x: 0 }}
             exit={{ x: '-100vw' }}
             className='absolute flex flex-col w-full h-screen bg-neutral-950 top-0 p-6'>
             <div className='flex justify-end'>
