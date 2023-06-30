@@ -6,7 +6,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Construction Service | Dream Design',
-  description: 'We provide top-qualityconstruction services for residential, commercial, and industrial projects, with a focus on innovative designs, sustainable practices, and expert project management.',
+  description: 'We provide top-quality construction services for residential, commercial, and industrial projects, with a focus on innovative designs, sustainable practices, and expert project management.',
   keywords: ['Architecture Construction', 'Construction Kosovo', 'Dream Design construction']
 }
 

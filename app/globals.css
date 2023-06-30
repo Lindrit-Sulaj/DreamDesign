@@ -70,6 +70,13 @@
   background-size: cover;
 }
 
+.maintenance section.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url('https://images.pexels.com/photos/224924/pexels-photo-224924.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .mdx ul {
   list-style-type:disc;
   color: rgb(70, 70, 70);
