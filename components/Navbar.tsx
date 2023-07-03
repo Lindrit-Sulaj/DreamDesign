@@ -22,6 +22,7 @@ export default function Navbar({ background, text }: { background: string, text:
           <li className='opacity-75 hover:opacity-100'><Link href="/">Home</Link></li>
           <li className='opacity-75 hover:opacity-100'><Link href="/about">About</Link></li>
           <li className='opacity-75 hover:opacity-100'><Link href="/services">Services</Link></li>
+          <li className='opacity-75 hover:opacity-100'><Link href="/projects">Projects</Link></li>
           <li className='opacity-75 hover:opacity-100 border-solid border-[1px] border-neutral-500 px-3 py-[5px] rounded-sm'><Link href="/contact">Contact</Link></li>
         </ul>
         <button className='block md:hidden' onClick={open}>
@@ -44,10 +45,11 @@ export default function Navbar({ background, text }: { background: string, text:
             </div>
             <ul className='flex flex-col justify-center grow gap-6 text-2xl font-medium items-center'>
               <li className='font-bold text-blue-300 mb-5'>DreamDesign</li>
-              <li className='opacity-[.8] hover:opacity-100'><Link href="#">Home</Link></li>
-              <li className='opacity-[.8] hover:opacity-100'><Link href="#">About</Link></li>
-              <li className='opacity-[.8] hover:opacity-100'><Link href="#">Services</Link></li>
-              <li className='opacity-[.8] hover:opacity-100 border-solid border-[2px] border-neutral-300 px-3 py-[5px] rounded-sm'><Link href="#">Contact</Link></li>
+              <li className='opacity-[.8] hover:opacity-100'><Link href="/">Home</Link></li>
+              <li className='opacity-[.8] hover:opacity-100'><Link href="/about">About</Link></li>
+              <li className='opacity-[.8] hover:opacity-100'><Link href="/services">Services</Link></li>
+              <li className='opacity-[.8] hover:opacity-100'><Link href="/projects">Projects</Link></li>
+              <li className='opacity-[.8] hover:opacity-100 border-solid border-[2px] border-neutral-300 px-3 py-[5px] rounded-sm'><Link href="/contact">Contact</Link></li>
             </ul>
           </motion.div>
         )}

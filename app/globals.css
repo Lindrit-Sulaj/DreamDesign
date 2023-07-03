@@ -42,6 +42,13 @@
   background-size: cover;
 }
 
+.projects section.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url('https://ik.imagekit.io/0s9lwb2yr/DreamDesign/8227cd61-c1bf-4f6a-85e4-1f56c7a88f01_ksLQF7ARH.JPG?updatedAt=1688074888538');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .services section.hero {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url('https://ik.imagekit.io/0s9lwb2yr/DreamDesign/heroImage_9eXL2A703.jpg?updatedAt=1686511011023');
   background-position: center;
